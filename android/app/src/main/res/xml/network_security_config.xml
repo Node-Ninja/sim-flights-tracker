@@ -1,0 +1,10 @@
+<network-security-config>
+  <domain-config cleartextTrafficPermitted="true">
+    <domain>10.0.2.2</domain>
+    <domain>192.168.8.137</domain>
+    <domain>192.168.8.103</domain> 
+  </domain-config>
+
+  <!-- Everything else stays HTTPS-only -->
+  <base-config cleartextTrafficPermitted="false" />
+</network-security-config>

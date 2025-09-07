@@ -1,0 +1,4 @@
+enum NavbarType {
+  slide,
+  reveal
+}

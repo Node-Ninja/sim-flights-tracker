@@ -1,0 +1,4 @@
+enum MapProjectionType {
+  mercator,
+  globe
+}

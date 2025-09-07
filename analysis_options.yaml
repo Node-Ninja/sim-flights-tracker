@@ -1,0 +1,12 @@
+include: package:flutter_lints/flutter.yaml
+
+analyzer:
+  errors:
+    dead_code: ignore
+  plugins:
+    - custom_lint
+
+linter:
+  rules:
+     avoid_print: true
+     prefer_single_quotes: true

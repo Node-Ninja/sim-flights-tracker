@@ -1,0 +1,675 @@
+{
+  "network": "Network",
+  "flights": "Flights",
+  "controllers": "Control",
+  "observers": "Observers",
+  "home": "Home",
+  "map": "Map",
+  "menu": "Menu",
+  "altitude": "Altitude",
+  "speed": "Speed",
+  "heading": "Heading",
+  "totalDistance": "Total Distance",
+  "distanceTravelled": "Distance Travelled",
+  "distanceRemaining": "Distance Remaining",
+  "timeToDestination": "Time to Destination",
+  "etaLocal": "ETA",
+  "etaZulu": "ETA Zulu",
+  "country": "Country",
+  "name": "Name",
+  "callsign": "Callsign",
+  "airlineDetails": "Airline Details",
+  "flightDetails": "Flight Information",
+  "captain": "Captain {name}",
+  "aircraft": "Aircraft",
+  "company": "Company",
+  "arrived": "Arrived",
+  "enRoute": "En Route",
+  "approaching": "Approaching",
+  "circuits": "Circuits",
+  "virtualAirline": "Virtual Airline",
+  "flag": "Flag",
+  "region": "Region",
+  "clearance": "Clearance",
+  "boarding": "Boarding",
+  "departing": "Departing",
+  "arrivingShortly": "Arriving Shortly",
+  "unknown": "Unknown",
+  "notAvailable": "Not Available",
+  "noOFP": "Flight plan not filed",
+  "waitingOFP": "Waiting for flight plan",
+  "unknownAircraft": "Unknown aircraft",
+  "noFlightDetails": "Cannot load flight details. Please try again later.",
+  "flightDisconnected": "The flight has disconnected from the network.",
+  "errorFlightLoad": "Something went wrong getting flight details. Please view another flight or try again later. We apologize for any inconvenience.",
+  "airportSearch": "Airport Search",
+  "vatsimEvents": "Vatsim Events",
+  "settings": "Settings",
+  "atcNetwork": "ATC Network",
+  "language": "Language",
+  "aboutApp": "Sim Flights Tracker is an app that tracks aircraft that are live on the Vatsim and Ivao networks. This app uses publicly available data from Vatsim and from Ivao.",
+  "appDisclaimer": "All third-party names, logos, and trademarks (including but not limited to airline brands) are the property of their respective owners. Their inclusion in this app is for informational and illustrative purposes only, and does not imply any affiliation with, sponsorship by, or endorsement from the respective trademark holders.\n\nThis app is not affiliated with, sponsored by, or endorsed by any airline or flight simulation network.",
+  "loaderText": "Fetching details",
+  "searchATC": "Search with area code or airport ICAO ID",
+  "noControllers": "No controllers found matching your search query. Please try again.",
+  "searchAirports": "Search with airport name or airport ICAO ID",
+  "airportsInfo": "Search and find information about airports around the world",
+  "oops": "Oops! Something went wrong. Please try again later.",
+  "noFlightsQuery": "No flights found matching your search query. Please try again",
+  "searchWithFlightNumber": "Search with flight number",
+  "onlineControllers": "Online Controllers",
+  "identification": "Identification",
+  "surface": "Surface",
+  "hasLights": "Has lights?",
+  "yes": "Yes",
+  "no": "No",
+  "viewDetails": "View details",
+  "elevation": "Elevation",
+  "lostInternetConnection": "Lost connection to the internet. Please reconnect.",
+  "hasNotStarted": "Hasn't started",
+  "startingNow": "Starting Now",
+  "inProgress": "In Progress",
+  "endingNow": "Ending Now",
+  "hasEnded": "Has Ended",
+  "tapToExit": "Tap back to exit",
+  "variable": "Variable",
+  "noMetar": "No metar information available.",
+  "windCalm": "Wind calm",
+  "goBack": "Go Back",
+  "noEvents": "No Events Found",
+  "noEventsPlanned": "There are no events planned for this day.",
+  "dateType": "Use date/time",
+  "hourLetter": "h",
+  "minuteShort": "min",
+  "local": "Local",
+  "timeSelection": "Times and dates are in {type} time",
+  "delivery": "Delivery",
+  "ground": "Ground",
+  "tower": "Tower",
+  "approach": "Approach",
+  "center": "Center",
+  "atcFull": "Air Traffic Controller",
+  "flyingNoOfp": "Flying without a valid flight plan.",
+  "shareEvent": "Share Event",
+  "partakingAirports": "Partaking Airports",
+  "endTime": "End Time",
+  "startTime": "Start Time",
+  "organizer": "Organizer",
+  "eventDetails": "Event Details",
+  "eventReminderRemoved": "Event reminder has been removed.",
+  "eventReminderSet": "Reminder has been set for this event.",
+  "eventAdd": "Add reminder",
+  "eventRemove": "Remove reminder",
+  "minutes": "minutes",
+  "hours": "hours",
+  "watchAd": "Watch Ad",
+  "flightsLog": "VATSIM Profile",
+  "flightInProgress": "Flight in progress",
+  "noFlightHistory": "No history. Please check your Vatsim ID in the app settings",
+  "helipad": "Helipad",
+  "runways": "Runways",
+  "vatsimId": "Vatsim ID",
+  "about": "About",
+  "latestHundredFlights": "VATSIM profile and flights",
+  "searchAirportInformation": "Search airport information and metar",
+  "vatsimEventsDescription": "Current and upcoming events on Vatsim",
+  "settingsDescription": "Preferences and contributions",
+  "aboutAppDescription": "Information about the app and developer",
+  "totalFlightCount": "Total Flights",
+  "viewMore": "View more",
+  "events": "Events",
+  "supportApp": "Love using the app? Help us keep improving by making a contribution below! Your support goes a long way. And while you're here, we'd appreciate it if you could take a moment to rate us on Google Play or the App Store. Thank you!",
+  "donatePaypal": "Buy me coffee",
+
+  "pilotHours": "Pilot hours",
+  "atcHours": "ATC hours",
+  "supHours": "SUP hours",
+
+  "generalSettings": "General Settings",
+  "vatsimSettings": "Vatsim Setting",
+  "supportTheApp": "Support the app",
+  "cruiseAltitude": "Cruise Altitude",
+  "cruiseSpeed": "Cruise Speed",
+
+  "navbarStyle": "Navbar Style",
+
+  "loginWithVatsim": "Login with your VATSIM account",
+  "loginWithVatsimLabel": "View profile details, flight history, and more",
+  "authWithVatsim": "Login with VATSIM",
+  "logout": "Logout",
+  "configLoadFail": "Could not load app configuration. Please restart the app.",
+  "screenNotFound": "The screen you are looking for does not exist",
+
+  "@network": {
+    "description": "Sim Network. Currently this app supports Vatsim and Ivao networks.",
+    "type": "text"
+  },
+  "@flights": {
+    "description": "Flights currently live on the network.",
+    "type": "text"
+  },
+  "@controllers": {
+    "description": "Air traffic controllers",
+    "type": "text"
+  },
+  "@observers": {
+    "description": "People connected to the network, not as pilots nor controllers or supervisors.",
+    "type": "text"
+  },
+  "@home": {
+    "description": "Home page of the app",
+    "type": "text"
+  },
+  "@map": {
+    "description": "Map page of the app",
+    "type": "text"
+  },
+  "@menu": {
+    "description": "Menu of the app",
+    "type": "text"
+  },
+  "@altitude": {
+    "description": "Altitude or height above ground level or high above sea level.",
+    "type": "text"
+  },
+  "@speed": {
+    "description": "Speed",
+    "type": "text"
+  },
+  "@heading": {
+    "description": "Compass heading",
+    "type": "text"
+  },
+  "@totalDistance": {
+    "description": "Total distance",
+    "type": "text"
+  },
+  "@distanceTravelled": {
+    "description": "Distance travelled",
+    "type": "text"
+  },
+  "@distanceRemaining": {
+    "description": "Distance remaining to destination",
+    "type": "text"
+  },
+  "@timeToDestination": {
+    "description": "Time remaining to destination",
+    "type": "text"
+  },
+  "@etaLocal": {
+    "description": "Estimated time of arrival in local time",
+    "type": "text"
+  },
+  "@etaZulu": {
+    "description": "Estimated time of arrival in Zulu time",
+    "type": "text"
+  },
+  "@country": {
+    "description": "Country",
+    "type": "text"
+  },
+  "@name": {
+    "description": "Name of the pilot or controller",
+    "type": "text"
+  },
+  "@callsign": {
+    "description": "Callsign of the pilot or controller",
+    "type": "text"
+  },
+  "@airlineDetails": {
+    "description": "Details about the airline",
+    "type": "text"
+  },
+  "@flightDetails": {
+    "description": "Details about the flight",
+    "type": "text"
+  },
+  "@captain": {
+    "description": "Captain of the flight",
+    "placeholders": {
+      "name": {
+        "description": "Name of the captain"
+      }
+    },
+    "type": "text"
+  },
+  "@aircraft": {
+    "description": "Aircraft / airplane",
+    "type": "text"
+  },
+  "@company": {
+    "description": "Company",
+    "type": "text"
+  },
+  "@arrived": {
+    "description": "Flight has arrived at destination",
+    "type": "text"
+  },
+  "@enRoute": {
+    "description": "Flight is en route to destination",
+    "type": "text"
+  },
+  "@approaching": {
+    "description": "Flight is approaching destination",
+    "type": "text"
+  },
+  "@circuits": {
+    "description": "When an aircraft is flying circuits, it means it is flying a pattern around an airport, usually for training purposes.",
+    "type": "text"
+  },
+  "@virtualAirline": {
+    "description": "Virtual airline is a simulation of a real airline, where pilots can fly flights as if they were part of that airline.",
+    "type": "text"
+  },
+  "@flag": {
+    "description": "Flag of a country",
+    "type": "text"
+  },
+  "@region": {
+    "description": "Region of the world",
+    "type": "text"
+  },
+  "@clearance": {
+    "description": "Clearance is the permission given by air traffic control to an aircraft to proceed with a flight.",
+    "type": "text"
+  },
+  "@boarding": {
+    "description": "Boarding is the process of passengers getting onto an aircraft before a flight.",
+    "type": "text"
+  },
+  "@departing": {
+    "description": "Flight is departing from an airport",
+    "type": "text"
+  },
+  "@arrivingShortly": {
+    "description": "Flight is arriving shortly at destination",
+    "type": "text"
+  },
+  "@unknown": {
+    "description": "Unknown",
+    "type": "text"
+  },
+  "@notAvailable": {
+    "description": "Not available",
+    "type": "text"
+  },
+  "@noOFP": {
+    "description": "OFP = Operational Flight Plan. This means that the flight plan has not been filed or is not available.",
+    "type": "text"
+  },
+  "@waitingOFP": {
+    "description": "Waiting for the flight plan to be filed",
+    "type": "text"
+  },
+  "@unknownAircraft": {
+    "description": "Unknown aircraft",
+    "type": "text"
+  },
+  "@noFlightDetails": {
+    "description": "Cannot load flight details. Please try again later.",
+    "type": "text"
+  },
+  "@flightDisconnected": {
+    "description": "The flight has disconnected from the network.",
+    "type": "text"
+  },
+  "@errorFlightLoad": {
+    "description": "Can't load flight details. Please try again later.",
+    "type": "text"
+  },
+  "@airportSearch": {
+    "description": "Search for an airport",
+    "type": "text"
+  },
+  "@vatsimEvents": {
+    "description": "Events on the Vatsim network",
+    "type": "text"
+  },
+  "@settings": {
+    "description": "Settings of the app",
+    "type": "text"
+  },
+  "@atcNetwork": {
+    "description": "Air Traffic Control network same as 'network'",
+    "type": "text"
+  },
+  "@language": {
+    "description": "Language of the app",
+    "type": "text"
+  },
+  "@aboutApp": {
+    "description": "Information about the app",
+    "type": "text"
+  },
+  "@appDisclaimer": {
+    "description": "Disclaimer about the app and its usage",
+    "type": "text"
+  },
+  "@loaderText": {
+    "description": "Text shown while loading data",
+    "type": "text"
+  },
+  "@searchATC": {
+    "description": "Search for air traffic controllers using area code or airport ICAO ID",
+    "type": "text"
+  },
+  "@noControllers": {
+    "description": "No controllers found.",
+    "type": "text"
+  },
+  "@searchAirports": {
+    "description": "Search for airports.",
+    "type": "text"
+  },
+  "@airportsInfo": {
+    "description": "Search and find information about airports around the world",
+    "type": "text"
+  },
+  "@oops": {
+    "description": "Oops! Something went wrong. Please try again later.",
+    "type": "text"
+  },
+  "@noFlightsQuery": {
+    "description": "No flights found matching your search query. Please try again",
+    "type": "text"
+  },
+  "@searchWithFlightNumber": {
+    "description": "Search for flights using flight number",
+    "type": "text"
+  },
+  "@onlineControllers": {
+    "description": "Online air traffic controllers",
+    "type": "text"
+  },
+  "@identification": {
+    "description": "Identification of a airport or helipad",
+    "type": "text"
+  },
+  "@surface": {
+    "description": "Surface of the runway or helipad",
+    "type": "text"
+  },
+  "@hasLights": {
+    "description": "Whether the runway has lights or not",
+    "type": "text"
+  },
+  "@yes": {
+    "description": "Yes",
+    "type": "text"
+  },
+  "@no": {
+    "description": "No",
+    "type": "text"
+  },
+  "@viewDetails": {
+    "description": "View more details for selected resource",
+    "type": "text"
+  },
+  "@elevation": {
+    "description": "Elevation or height above sea level",
+    "type": "text"
+  },
+  "@lostInternetConnection": {
+    "description": "Lost connection to the internet. Please reconnect.",
+    "type": "text"
+  },
+  "@hasNotStarted": {
+    "description": "Flight or event has not started yet",
+    "type": "text"
+  },
+  "@startingNow": {
+    "description": "Flight or event is starting now",
+    "type": "text"
+  },
+  "@inProgress": {
+    "description": "Flight or event is currently in progress",
+    "type": "text"
+  },
+  "@endingNow": {
+    "description": "Flight or event is ending now",
+    "type": "text"
+  },
+  "@hasEnded": {
+    "description": "Flight or event has ended",
+    "type": "text"
+  },
+  "@tapToExit": {
+    "description": "Tap back to exit the current screen",
+    "type": "text"
+  },
+  "@variable": {
+    "description": "Variable weather conditions",
+    "type": "text"
+  },
+  "@noMetar": {
+    "description": "No METAR information available",
+    "type": "text"
+  },
+  "@windCalm": {
+    "description": "Wind is calm",
+    "type": "text"
+  },
+  "@goBack": {
+    "description": "Go back to the previous screen",
+    "type": "text"
+  },
+  "@noEvents": {
+    "description": "No events found",
+    "type": "text"
+  },
+  "@noEventsPlanned": {
+    "description": "There are no events planned for this day.",
+    "type": "text"
+  },
+  "@dateType": {
+    "description": "Use date/time format",
+    "type": "text"
+  },
+  "@hourLetter": {
+    "description": "Letter used to represent hours in time",
+    "type": "text"
+  },
+  "@minuteShort": {
+    "description": "Short form of minutes",
+    "type": "text"
+  },
+  "@local": {
+    "description": "Local time",
+    "type": "text"
+  },
+  "@timeSelection": {
+    "description": "Times and dates are in local time or Zulu time",
+    "type": "text",
+    "placeholders": {
+      "type": {
+        "description": "Type of time, e.g., local or Zulu"
+      }
+    }
+  },
+  "@delivery": {
+    "description": "Delivery is a type of air traffic control service that provides coverage for aircraft on the ground at an airport.",
+    "type": "text"
+  },
+  "@ground": {
+    "description": "Ground is a type of air traffic control service that provides coverage for aircraft on the ground at an airport.",
+    "type": "text"
+  },
+  "@tower": {
+    "description": "Tower is a type of air traffic control service that provides coverage for aircraft on the ground and in the airspace around an airport.",
+    "type": "text"
+  },
+  "@approach": {
+    "description": "Approach is a type of air traffic control service that provides coverage for aircraft approaching an airport.",
+    "type": "text"
+  },
+  "@center": {
+    "description": "Center is a type of air traffic control service that provides coverage over a large area.",
+    "type": "text"
+  },
+  "@atcFull": {
+    "description": "Full name of the air traffic controller",
+    "type": "text"
+  },
+  "@flyingNoOfp": {
+    "description": "Flying without a valid flight plan.",
+    "type": "text"
+  },
+  "@shareEvent": {
+    "description": "Share event",
+    "type": "text"
+  },
+  "@partakingAirports": {
+    "description": "Airports that are partaking in the event",
+    "type": "text"
+  },
+  "@endTime": {
+    "description": "End time of the event",
+    "type": "text"
+  },
+  "@startTime": {
+    "description": "Start time of the event",
+    "type": "text"
+  },
+  "@organizer": {
+    "description": "Organizer of the event",
+    "type": "text"
+  },
+  "@eventDetails": {
+    "description": "Details about the event",
+    "type": "text"
+  },
+  "@eventReminderRemoved": {
+    "description": "Event reminder has been removed.",
+    "type": "text"
+  },
+  "@eventReminderSet": {
+    "description": "Reminder has been set for this event",
+    "type": "text"
+  },
+  "@eventAdd":  {
+    "description": "Add reminder for an event",
+    "type": "text"
+  },
+  "@eventRemove": {
+    "description": "Remove reminder for an event",
+    "type": "text"
+  },
+  "@minutes": {
+    "description": "Minutes",
+    "type": "text"
+  },
+  "@hours": {
+    "description": "Hours",
+    "type": "text"
+  },
+  "@watchAd": {
+    "description": "Watch an ad to support the app",
+    "type": "text"
+  },
+  "@flightsLog": {
+    "description": "Flights log",
+    "type": "text"
+  },
+  "@flightInProgress": {
+    "description": "Flight in progress",
+    "type": "text"
+  },
+  "@noFlightHistory": {
+    "description": "No flight history available. Please check your Vatsim ID in the app settings.",
+    "type": "text"
+  },
+  "@helipad": {
+    "description": "Helipad is a landing area for helicopters",
+    "type": "text"
+  },
+  "@runways": {
+    "description": "Runways at the airport",
+    "type": "text"
+  },
+  "@vatsimId": {
+    "description": "Vatsim ID of the pilot or controller",
+    "type": "text"
+  },
+  "@about": {
+    "description": "About the app",
+    "type": "text"
+  },
+  "@latestHundredFlights": {
+    "description": "Your latest 100 flights",
+    "type": "text"
+  },
+  "@searchAirportInformation": {
+    "description": "Search airport information and metar",
+    "type": "text"
+  },
+  "@vatsimEventsDescription": {
+    "description": "Description of Vatsim events",
+    "type": "text"
+  },
+  "@settingsDescription": {
+    "description": "Preferences and contributions",
+    "type": "text"
+  },
+  "@aboutAppDescription": {
+    "description": "Information about the app and developer",
+    "type": "text"
+  },
+  "@totalFlightCount": {
+    "description": "Total number of flights",
+    "type": "text"
+  },
+  "@viewMore": {
+    "description": "View more flights or events",
+    "type": "text"
+  },
+  "@events": {
+    "description": "Events",
+    "type": "text"
+  },
+  "@supportApp": {
+    "description": "Support the app by donating or contributing",
+    "type": "text"
+  },
+  "@donatePaypal": {
+    "description": "Donate",
+    "type": "text"
+  },
+
+  "@pilotHours": {
+    "description": "Hours connected as pilot",
+    "type": "text"
+  },
+  "@atcHours": {
+    "description": "Hours connected as air traffic controller",
+    "type": "text"
+  },
+  "@supHours": {
+    "description": "Hours connectd as supervisor",
+    "type": "text"
+  },
+
+  "@generalSettings": {
+    "description": "General Settings",
+    "type": "text"
+  },
+  "@vatsimSettings": {
+    "description": "Vatsim Settings",
+    "type": "text"
+  },
+  "@supportTheApp": {
+    "description": "Support the app",
+    "type": "text"
+  },
+  "@cruiseAltitude": {
+    "description": "Cruise altitude of the aircraft",
+    "type": "text"
+  },
+  "@cruiseSpeed": {
+    "description": "Cruise speed of the aircraft",
+    "type": "text"
+  },
+  "@navbarStyle": {
+    "description": "Style of the bottom navigation bar",
+    "type": "text"
+  }
+}

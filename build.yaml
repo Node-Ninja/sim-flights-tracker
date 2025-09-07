@@ -1,0 +1,12 @@
+targets:
+  $default:
+    builders:
+      source_gen:combining_builder:
+        options:
+          build_extensions:
+            '^lib/domain/model/{{}}.dart': 'lib/domain/model/generated/{{}}.g.dart'
+            '^lib/data/entity/{{}}.dart': 'lib/data/entity/generated/{{}}.g.dart'
+      json_serializable:
+        options:
+          explicit_to_json: true
+          include_if_null: false
