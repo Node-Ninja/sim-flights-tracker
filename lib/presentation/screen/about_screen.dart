@@ -93,7 +93,7 @@ class AboutScreen extends ConsumerWidget {
                 ),
                 horizontalSpace(Spacing.standardMargin),
                 GestureDetector(
-                  onTap: () => openBrowser('https://github.com/Node-Ninja/sim-flights-tracker-app'),
+                  onTap: () => openBrowser('https://github.com/Node-Ninja/sim-flights-tracker'),
                   child: Text('SFT Open Code', style: TextStyle(color: SftColors.lightGreen),),
                 ),
               ],
