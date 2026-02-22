@@ -2,6 +2,8 @@
 
 Sim Flights Tracker is a Flutter app for tracking simulated flights and controllers on VATSIM / IVAO networks. Official site: https://www.simflightstracker.com
 
+![Architecture Diagram](Screenshot%20From%202026-02-22%2011-13-08.png)
+
 ## Quick links
 - Project entry: lib/main.dart
 - App shell: lib/sim_flights_tracker.dart
